@@ -19,28 +19,26 @@ Lets first take a look at the _Color_ card. You may already know that changing t
 #### Colors
 To edit the color palette, you can click on the button that reads __Edit Colors__. Here you will see a few options:
 * __Select Data Item__ - Selecting a data item will allow you to select the color for that specific point
-* __Select Color Palette__ - The drop-down menu will allow you to select from many color palettes, which are themed color groups and different combinations of colors. When selecting from these color palettes, the colors will be assigned by Tableau and can be changed if you wish. Groups of different colors are generally used for discrete data which has no specific order, such as a category or department. Toward the bottom of the list you will color palettes which are better suited for data which has an order such as dates or times. If your data is continuous, Tableau will assign a continuous color spectrum which can be edited further by adjusting the various number parameters.
-* __Assign Palette__ - Clicking on the _Assign Palette_ button will simply assign the selected color palette to the data.
+* __Select Color Palette__ - The drop-down menu will allow you to select from many color palettes, which are themed color groups and different combinations of colors. Some of the color palettes are sequential, while others are divergent giving you many options to represent the data with color.
+* __Assign Palette__ - Clicking on the _Assign Palette_ button will simply assign the selected color palette to the data.  
 
-Once you have configured the colors the way you want them to look, you will want to click on _Apply_ and _OK_ to save the changes.
+> Editing colors in a viz is somewhat intuitive. Take a little time and play with the colors and look at the result to get familiar with the many options. Once you have configured the colors the way you want them to look, you will want to click on _Apply_ and _OK_ to save the changes.
 
-#### Opacity
-The opacity slider allows the user to adjust the color to be more or less "see-through." To make this change simply click on the slider and adjust to the level you desire, or you can type the value in directly if it is known. This can be useful when the vis is overlapping another item and you need to make the color see through to allow for the hidden information to be seen.
-
-
-#### Effects
-The effects section will allow you to add a color border to the items the color is applied to. The border helps to increase the visibility of the edges of the viz's components. You can also apply a _Halo_ to some items which will a give a secondary border to some shape components.
+Other attributes of a vizes color which can be customized are:
+* __Opacity__ - The opacity slider allows the user to adjust the color to be more or less "see-through." This can be useful when the vis is overlapping another item and you need to make the color see through to allow for the hidden information to be seen.  
+* __Effects__ - The effects section will allow you to add a color border to the items the color is applied to. The border helps to increase the visibility of the edges of the viz's components.  
 
 ## Size
 The _Size_ card has a slider which will allow you to adjust the size of the viz components. For example, if you have generated a bar chart, the _Size_ slider will adjust the width of the bars. The _Size_ slider will also adjust the size of shapes in a scatter plot. Additionally, you can drop a measure in to the _Size_ card, and the size of the components in the viz will be dependent on the value of the data.
 
 ## Label
-The _Label_ card
+The _Label_ card allows you to display labels in the viz to make it easier to identify the components of the viz. You can change the attributes of the labels such as _Font_, _Justification_, and which labels to display. You can also add custom text to make it more informative like adding a dollar sign before a numeric value to denote currency.
 
+## Detail  
+The _Detail_ card allows you to add more detail to the viz, as the name suggests. This is helpful to identify sub categories of a field. In the case of a bar chart, the bar will be divided into the sub-categories to illustrate the distribution of that particular category.
 
-```python
-## content for topic title 3
-```
+## Tooltip  
+The _Tooltip_ card allows you to control the information in the pop-up box when the viewer hovers over an element of the viz. You can customize the information with standard text tools like _Font_, _Size_, _Color_, etc. You can also customize the labels and field names so if your field names are not clear, you can rename them to make it easier for the viewer to understand what the data represents.  
 
 ## Summary
-Summary goes here
+Now that we have a good idea of the tools Tableau has to customize our viz's, we are ready to test out what we have learned and try the tools to see how they can affect the way we convey the information about the data we are presenting.
