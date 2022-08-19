@@ -14,7 +14,7 @@ We have already taken a look at the _Marks Card_ and briefly looked at the funct
 <img src="https://curriculum-content.s3.amazonaws.com/data-science/images/tableau/marks_card.png" alt="Image of the marks card which contains five elements: Color, Size, Text, Detail, and Tooltip" height="150px">
 
 ## Color
-Lets first take a look at the _Color_ card.
+Let's first take a look at the _Color_ card.
 
 You may already know that changing the color of something is one of the most effective ways to make it more interesting. Tableau allows you to change the color based on values of the data, which can make it easier for the viewer to mentally separate different categories of data. To add color detail to your viz, simply drag the measure or dimension and drop it on the _Color_ card. Once you have applied the color to the data, you can customize it by clicking on the _Color_ card.  
 
