@@ -35,7 +35,7 @@ Here you will see a few options:
 > Editing colors in a viz is somewhat intuitive. Take a little time and play with the colors and look at the result to get familiar with the many options. Once you have configured the colors the way you want them to look, you will want to click on _Apply_ and _OK_ to save the changes.
 
 Other attributes of a vizes color which can be customized are:
-* __Opacity__ - The opacity slider allows the user to adjust the color to be more or less "see-through." This can be useful when the vis is overlapping another item and you need to make the color see through to allow for the hidden information to be seen.  
+* __Opacity__ - The opacity slider allows the user to adjust the color to be more or less "see-through." This can be useful when the viz is overlapping another item and you need to make the color see through to allow for the hidden information to be seen.  
 * __Effects__ - The effects section will allow you to add a color border to the items the color is applied to. The border helps to increase the visibility of the edges of the viz's components.  
 
 ## Size
