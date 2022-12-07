@@ -1,4 +1,4 @@
-# Tableau Public - Worksheets Lab
+# Tableau Public - Customizing Worksheets
 
 ## Introduction
 Now that you have learned of the many features of Tableau, it is time to put that knowledge to work and create your first worksheet. 
